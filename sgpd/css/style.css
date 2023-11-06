@@ -1,0 +1,16 @@
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.paragrafo {
+    color: black;
+}
+
+.custom-btn {
+    width: 80%;
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+}
