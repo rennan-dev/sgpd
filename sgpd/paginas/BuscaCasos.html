@@ -39,6 +39,34 @@
 </nav>
 
 
+
+<main class="container mt-3">
+    <h1 class="text-center">Busca de Casos</h1>
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5 class="card-title">Pesquisar Desaparecido(a)</h5>
+        <form>
+          <div class="mb-3">
+            <label for="nomeCompleto" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nomeCompleto">
+          </div>
+          <div class="mb-3">
+            <label for="municipio" class="form-label">Município</label>
+            <input type="text" class="form-control" id="municipio">
+          </div>
+          <div class="mb-3">
+            <label for="ordenadoPor" class="form-label">Ordenado por</label>
+            <select class="form-select" id="ordenadoPor">
+              <option value="nome">Nome</option>
+              <option value="dataDesaparecido">Data do Desaparecido</option>
+              <option value="dataAtualizacao">Data da Atualização</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </main>
   
 
     
@@ -46,19 +74,19 @@
     
     
 
-    <footer class="footer-bg text-white py-3 fixed-bottom" style="background: rgb(0, 36, 166)">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <p class="mb-0">SGPD</p>
-                    <p class="mb-0">Redes Sociais</p>
-                </div>
-                <div class="col-12 col-md-4 text-center fixed-bottom mx-auto">
-                    <p class="mb-0">&copy; 2023 Todos os direitos reservados ao SGPD</p>
-                </div>
-            </div>
+  <footer class="footer-bg text-white py-3 mt-5" style="background: rgb(0, 36, 166)">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <p class="mb-0">SGPD</p>
+          <p class="mb-0">Redes Sociais</p>
         </div>
-    </footer>
+        <div class="col-12 col-md-4 text-center fixed-bottom mx-auto">
+          <p class="mb-0">&copy; 2023 Todos os direitos reservados ao SGPD</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
